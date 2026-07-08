@@ -153,7 +153,7 @@
     maxZoom: 18,
   }).addTo(map);
 
-  fetch("../data/arbre_geocoded.json")
+  fetch("../public/arbre_geocoded.json")
     .then(r => r.json())
     .then(personnes => {
       const generations = [...new Set(personnes.map(p => p.generation))].sort((a, b) => a - b);
