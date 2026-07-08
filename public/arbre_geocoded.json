@@ -513,11 +513,11 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Penmarch",
+    "departement": 29,
+    "annee_naissance": 1799,
+    "lat": 47.8122,
+    "lon": -4.3406
   },
   {
     "generation": 6,
@@ -793,11 +793,11 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Plomeur",
+    "departement": 29,
+    "annee_naissance": 1799,
+    "lat": 47.8377,
+    "lon": -4.3007
   },
   {
     "generation": 6,
@@ -857,11 +857,11 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Penmarch",
+    "departement": 29,
+    "annee_naissance": 1791,
+    "lat": 47.8122,
+    "lon": -4.3406
   },
   {
     "generation": 6,
@@ -929,11 +929,11 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Penmarch",
+    "departement": 29,
+    "annee_naissance": 1783,
+    "lat": 47.8122,
+    "lon": -4.3406
   },
   {
     "generation": 6,
