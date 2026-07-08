@@ -1,0 +1,1145 @@
+[
+  {
+    "nom": "Yves Vilbé",
+    "generation": 0,
+    "commune": "Brest",
+    "departement": 29,
+    "annee_naissance": 1979,
+    "lat": 48.4085,
+    "lon": -4.4996
+  },
+  {
+    "nom": "Maryvonne Daniel",
+    "generation": 1,
+    "commune": "Treffiagat",
+    "departement": 29,
+    "annee_naissance": 1947,
+    "lat": 47.8068,
+    "lon": -4.2562
+  },
+  {
+    "nom": "Pierre Vilbé",
+    "generation": 1,
+    "commune": "Château Gontier",
+    "departement": 53,
+    "annee_naissance": 1948,
+    "lat": 47.821,
+    "lon": -0.701
+  },
+  {
+    "nom": "Clémence Vrignon",
+    "generation": 2,
+    "commune": "Champ Saint Père",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5121,
+    "lon": -1.3396
+  },
+  {
+    "nom": "Georges Vilbé",
+    "generation": 2,
+    "commune": "La Guerche de Bretagne",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9448,
+    "lon": -1.2396
+  },
+  {
+    "nom": "Jean Daniel",
+    "generation": 2,
+    "commune": "Treffiagat",
+    "departement": 29,
+    "annee_naissance": 1906,
+    "lat": 47.8068,
+    "lon": -4.2562
+  },
+  {
+    "nom": "Thumette Kervevant",
+    "generation": 2,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1913,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Anne Le Bléis",
+    "generation": 3,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1886,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Claire Moreau",
+    "generation": 3,
+    "commune": "Brains sur les Marches",
+    "departement": 53,
+    "annee_naissance": null,
+    "lat": 47.8853,
+    "lon": -1.1769
+  },
+  {
+    "nom": "Clémence Traineau",
+    "generation": 3,
+    "commune": "Château Guibert",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.575,
+    "lon": -1.2638
+  },
+  {
+    "nom": "Jean Pierre Vrignon",
+    "generation": 3,
+    "commune": "Champ Saint Père",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5121,
+    "lon": -1.3396
+  },
+  {
+    "nom": "Joseph Vilbé",
+    "generation": 3,
+    "commune": "La Guerche de Bretagne",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9448,
+    "lon": -1.2396
+  },
+  {
+    "nom": "Marie Paul",
+    "generation": 3,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1875,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Nicolas Daniel",
+    "generation": 3,
+    "commune": "Treffiagat",
+    "departement": 29,
+    "annee_naissance": 1862,
+    "lat": 47.8068,
+    "lon": -4.2562
+  },
+  {
+    "nom": "Yves Kervevant",
+    "generation": 3,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1880,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Amand Vilbé",
+    "generation": 4,
+    "commune": "Domalain",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9975,
+    "lon": -1.2445
+  },
+  {
+    "nom": "Célestin Moreau",
+    "generation": 4,
+    "commune": "La Guerche de Bretagne",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9448,
+    "lon": -1.2396
+  },
+  {
+    "nom": "François Kervevant",
+    "generation": 4,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1843,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Gildas Le Bléis",
+    "generation": 4,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1859,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Jean Pierre Vrignon",
+    "generation": 4,
+    "commune": "Chaillé sous les Ormeaux",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5896,
+    "lon": -1.3345
+  },
+  {
+    "nom": "Julienne Dufeu",
+    "generation": 4,
+    "commune": "La Guerche de Bretagne",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9448,
+    "lon": -1.2396
+  },
+  {
+    "nom": "Louis Traineau",
+    "generation": 4,
+    "commune": "Aubigny",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.6123,
+    "lon": -1.4794
+  },
+  {
+    "nom": "Louise Traineau",
+    "generation": 4,
+    "commune": "Château Guibert",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.575,
+    "lon": -1.2638
+  },
+  {
+    "nom": "Marie Daniel",
+    "generation": 4,
+    "commune": "Treffiagat",
+    "departement": 29,
+    "annee_naissance": 1837,
+    "lat": 47.8068,
+    "lon": -4.2562
+  },
+  {
+    "nom": "Marie Le Bec",
+    "generation": 4,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1843,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Marie Mélénec",
+    "generation": 4,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1868,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Marie Stéphan",
+    "generation": 4,
+    "commune": "Penmarch",
+    "departement": 29,
+    "annee_naissance": 1848,
+    "lat": 47.8122,
+    "lon": -4.3406
+  },
+  {
+    "nom": "Marie Tessier",
+    "generation": 4,
+    "commune": "Champ Saint Père",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5121,
+    "lon": -1.3396
+  },
+  {
+    "nom": "Nicolas Daniel",
+    "generation": 4,
+    "commune": "Treffiagat",
+    "departement": 29,
+    "annee_naissance": 1835,
+    "lat": 47.8068,
+    "lon": -4.2562
+  },
+  {
+    "nom": "Victoire David",
+    "generation": 4,
+    "commune": "La Guerche de Bretagne",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9448,
+    "lon": -1.2396
+  },
+  {
+    "nom": "Yves Paul",
+    "generation": 4,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1841,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Agathe Le Cossec",
+    "generation": 5,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1822,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Anne Le Dreau",
+    "generation": 5,
+    "commune": "Treffiagat",
+    "departement": 29,
+    "annee_naissance": 1812,
+    "lat": 47.8068,
+    "lon": -4.2562
+  },
+  {
+    "nom": "Catherine Kerhrôm",
+    "generation": 5,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1819,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Etiennette Crublet",
+    "generation": 5,
+    "commune": "Bais",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 48.0089,
+    "lon": -1.2989
+  },
+  {
+    "nom": "François Kervevant",
+    "generation": 5,
+    "commune": "Saint Jean Trolimon",
+    "departement": 29,
+    "annee_naissance": 1814,
+    "lat": 47.8718,
+    "lon": -4.3083
+  },
+  {
+    "nom": "François Mélénec",
+    "generation": 5,
+    "commune": "Pont l'Abbé",
+    "departement": 29,
+    "annee_naissance": 1838,
+    "lat": 47.8674,
+    "lon": -4.2174
+  },
+  {
+    "nom": "Gildas Le Bléis",
+    "generation": 5,
+    "commune": "Plomeur",
+    "departement": 29,
+    "annee_naissance": 1832,
+    "lat": 47.8377,
+    "lon": -4.3007
+  },
+  {
+    "nom": "Jacques Daniel",
+    "generation": 5,
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1807,
+    "lat": 47.8209,
+    "lon": -4.2282
+  },
+  {
+    "nom": "Jacques Tessier",
+    "generation": 5,
+    "commune": "Champ Saint Père",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5121,
+    "lon": -1.3396
+  },
+  {
+    "nom": "Jean Le Bec",
+    "generation": 5,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1817,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Jean Moreau",
+    "generation": 5,
+    "commune": "La Guerche de Bretagne",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9448,
+    "lon": -1.2396
+  },
+  {
+    "nom": "Jean Traineau",
+    "generation": 5,
+    "commune": "La Boissière des Landes",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5588,
+    "lon": -1.438
+  },
+  {
+    "nom": "Jean Vilbé",
+    "generation": 5,
+    "commune": "Bais",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 48.0089,
+    "lon": -1.2989
+  },
+  {
+    "nom": "Jean Vrignon",
+    "generation": 5,
+    "commune": "Mouilleron le Captif",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.7114,
+    "lon": -1.4649
+  },
+  {
+    "nom": "Jeanne Durand",
+    "generation": 5,
+    "commune": "Penmarch",
+    "departement": 29,
+    "annee_naissance": 1823,
+    "lat": 47.8122,
+    "lon": -4.3406
+  },
+  {
+    "nom": "Julienne Vilais",
+    "generation": 5,
+    "commune": "Availles",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9589,
+    "lon": -1.1862
+  },
+  {
+    "nom": "Margueritte Le Quéffélec",
+    "generation": 5,
+    "commune": "Treffiagat",
+    "departement": 29,
+    "annee_naissance": 1795,
+    "lat": 47.8068,
+    "lon": -4.2562
+  },
+  {
+    "nom": "Marie Cariou",
+    "generation": 5,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1822,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Marie Durand",
+    "generation": 5,
+    "commune": "Saint Florent des Bois",
+    "departement": 85,
+    "annee_naissance": 1823,
+    "lat": 46.5896,
+    "lon": -1.3345
+  },
+  {
+    "nom": "Marie Guilloton",
+    "generation": 5,
+    "commune": "Nesmy",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5904,
+    "lon": -1.4107
+  },
+  {
+    "nom": "Marie Marsaud",
+    "generation": 5,
+    "commune": "Château Guibert",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.575,
+    "lon": -1.2638
+  },
+  {
+    "nom": "Marie Pochat",
+    "generation": 5,
+    "commune": "Tréméoc",
+    "departement": 29,
+    "annee_naissance": 1838,
+    "lat": 47.9064,
+    "lon": -4.2165
+  },
+  {
+    "nom": "Marie Prouteau",
+    "generation": 5,
+    "commune": "Nesmy",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5904,
+    "lon": -1.4107
+  },
+  {
+    "nom": "Marie Struillou",
+    "generation": 5,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1847,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Nicolas Daniel",
+    "generation": 5,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1794,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Perrine Geslin",
+    "generation": 5,
+    "commune": "La Guerche de Bretagne",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9448,
+    "lon": -1.2396
+  },
+  {
+    "nom": "Pierre David",
+    "generation": 5,
+    "commune": "Availles",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9589,
+    "lon": -1.1862
+  },
+  {
+    "nom": "Pierre Traineau",
+    "generation": 5,
+    "commune": "Château Guibert",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.575,
+    "lon": -1.2638
+  },
+  {
+    "nom": "Rose Marsollier",
+    "generation": 5,
+    "commune": "Availles",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9589,
+    "lon": -1.1862
+  },
+  {
+    "nom": "Siméon Dufeu",
+    "generation": 5,
+    "commune": "Marcillé Robert",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9594,
+    "lon": -1.3552
+  },
+  {
+    "nom": "Sébastien Stéphan",
+    "generation": 5,
+    "commune": "Penmarch",
+    "departement": 29,
+    "annee_naissance": 1819,
+    "lat": 47.8122,
+    "lon": -4.3406
+  },
+  {
+    "nom": "Yves Paul",
+    "generation": 5,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1815,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Alain Daniel",
+    "generation": 6,
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1777,
+    "lat": 47.8209,
+    "lon": -4.2282
+  },
+  {
+    "nom": "Alain Durand",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "André Durand",
+    "generation": 6,
+    "commune": "La Roche sur Yon",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.6659,
+    "lon": -1.4162
+  },
+  {
+    "nom": "Angélique Courtigné",
+    "generation": 6,
+    "commune": "Bais",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 48.0089,
+    "lon": -1.2989
+  },
+  {
+    "nom": "Anne Chretien",
+    "generation": 6,
+    "commune": "Visseiche",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9592,
+    "lon": -1.3023
+  },
+  {
+    "nom": "Anne Desnos",
+    "generation": 6,
+    "commune": "Piré",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 48.0146,
+    "lon": -1.406
+  },
+  {
+    "nom": "Anne Le Cléach",
+    "generation": 6,
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1774,
+    "lat": 47.8209,
+    "lon": -4.2282
+  },
+  {
+    "nom": "Anne Le Draoulec",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Catherine (Le) Signor",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Catherine Le Pape",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Catherine Tanneau",
+    "generation": 6,
+    "commune": "Plomeur",
+    "departement": 29,
+    "annee_naissance": 1808,
+    "lat": 47.8377,
+    "lon": -4.3007
+  },
+  {
+    "nom": "Charles Le Dréau",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Corentin Le Bec",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Etienne Vilbé",
+    "generation": 6,
+    "commune": "Bais",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 48.0089,
+    "lon": -1.2989
+  },
+  {
+    "nom": "François Guilloton",
+    "generation": 6,
+    "commune": "Nesmy",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5904,
+    "lon": -1.4107
+  },
+  {
+    "nom": "François Moreau",
+    "generation": 6,
+    "commune": "Rannée",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9063,
+    "lon": -1.233
+  },
+  {
+    "nom": "Françoise Grandin",
+    "generation": 6,
+    "commune": "La Roë",
+    "departement": 53,
+    "annee_naissance": null,
+    "lat": 47.8932,
+    "lon": -1.1072
+  },
+  {
+    "nom": "Françoise Petit",
+    "generation": 6,
+    "commune": "Drouges",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.904,
+    "lon": -1.2576
+  },
+  {
+    "nom": "Gildas Le Blays",
+    "generation": 6,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1803,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Guillaume Kerhrôm",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Jacques Daniel",
+    "generation": 6,
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1765,
+    "lat": 47.8209,
+    "lon": -4.2282
+  },
+  {
+    "nom": "Jacques Tessier",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Jacques Vrignon",
+    "generation": 6,
+    "commune": "Poiré sur Vie",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.7681,
+    "lon": -1.5016
+  },
+  {
+    "nom": "Jean Dufeu",
+    "generation": 6,
+    "commune": "Boistrudan",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9776,
+    "lon": -1.4006
+  },
+  {
+    "nom": "Jean Le Quéffélec",
+    "generation": 6,
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1773,
+    "lat": 47.8209,
+    "lon": -4.2282
+  },
+  {
+    "nom": "Jean Marie Kervévant",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Jean Marsollier",
+    "generation": 6,
+    "commune": "Gastines",
+    "departement": 53,
+    "annee_naissance": null,
+    "lat": 47.9407,
+    "lon": -1.1141
+  },
+  {
+    "nom": "Jeanne Buton",
+    "generation": 6,
+    "commune": "Poiré sur Vie",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.7681,
+    "lon": -1.5016
+  },
+  {
+    "nom": "Jeanne Frémaudeau",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Jeanne Guilleu",
+    "generation": 6,
+    "commune": "Bais",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 48.0089,
+    "lon": -1.2989
+  },
+  {
+    "nom": "Joseph Crublet",
+    "generation": 6,
+    "commune": "Bais",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 48.0089,
+    "lon": -1.2989
+  },
+  {
+    "nom": "Julie Neau",
+    "generation": 6,
+    "commune": "Le Tablier",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5593,
+    "lon": -1.327
+  },
+  {
+    "nom": "Julien Geslin",
+    "generation": 6,
+    "commune": "Retiers",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9093,
+    "lon": -1.3512
+  },
+  {
+    "nom": "Louis Prouteau",
+    "generation": 6,
+    "commune": "Nesmy",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5904,
+    "lon": -1.4107
+  },
+  {
+    "nom": "Louis Traineau",
+    "generation": 6,
+    "commune": "Aubigny",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.6123,
+    "lon": -1.4794
+  },
+  {
+    "nom": "Louise Herbert",
+    "generation": 6,
+    "commune": "La Boissière des Landes",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5588,
+    "lon": -1.438
+  },
+  {
+    "nom": "Louise Le Péoch",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Marc Cariou",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Margueritte Caoudal",
+    "generation": 6,
+    "commune": "Plonéour Lanvern",
+    "departement": 29,
+    "annee_naissance": 1790,
+    "lat": 47.9066,
+    "lon": -4.2678
+  },
+  {
+    "nom": "Marie Charlot",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Marie Coupa",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Marie Delavergne",
+    "generation": 6,
+    "commune": "La Boissière des Landes",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5588,
+    "lon": -1.438
+  },
+  {
+    "nom": "Marie Guillemineau",
+    "generation": 6,
+    "commune": "Champ Saint Père",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5121,
+    "lon": -1.3396
+  },
+  {
+    "nom": "Marie Guyau",
+    "generation": 6,
+    "commune": "Bellenoue",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.575,
+    "lon": -1.2638
+  },
+  {
+    "nom": "Marie Jaouen",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Marie Jeanne Durand",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Marie Kehrome",
+    "generation": 6,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1777,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Marie Le Calvez",
+    "generation": 6,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1770,
+    "lat": 47.8246,
+    "lon": -4.1852
+  },
+  {
+    "nom": "Marie Le Pape",
+    "generation": 6,
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1818,
+    "lat": 47.8209,
+    "lon": -4.2282
+  },
+  {
+    "nom": "Marie Le Pavec",
+    "generation": 6,
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1802,
+    "lat": 47.8209,
+    "lon": -4.2282
+  },
+  {
+    "nom": "Marie Le Taro",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Marie Vinçonneau",
+    "generation": 6,
+    "commune": "Champ Saint Père",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5121,
+    "lon": -1.3396
+  },
+  {
+    "nom": "Martin David",
+    "generation": 6,
+    "commune": "Availles",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9589,
+    "lon": -1.1862
+  },
+  {
+    "nom": "Michel Stéphan",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Perrine Malhère",
+    "generation": 6,
+    "commune": "Availles",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9589,
+    "lon": -1.1862
+  },
+  {
+    "nom": "Perrine Salliot",
+    "generation": 6,
+    "commune": "Availles",
+    "departement": 35,
+    "annee_naissance": null,
+    "lat": 47.9589,
+    "lon": -1.1862
+  },
+  {
+    "nom": "Pierre Le Cossec",
+    "generation": 6,
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1779,
+    "lat": 47.8209,
+    "lon": -4.2282
+  },
+  {
+    "nom": "Pierre Marsaud",
+    "generation": 6,
+    "commune": "Château Guibert",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.575,
+    "lon": -1.2638
+  },
+  {
+    "nom": "Pierre Mélénec",
+    "generation": 6,
+    "commune": "Pont l'Abbé",
+    "departement": 29,
+    "annee_naissance": 1803,
+    "lat": 47.8674,
+    "lon": -4.2174
+  },
+  {
+    "nom": "Pierre Traineau",
+    "generation": 6,
+    "commune": "Moutiers sur le Lay",
+    "departement": 85,
+    "annee_naissance": null,
+    "lat": 46.5644,
+    "lon": -1.1722
+  },
+  {
+    "nom": "Pierre Vilais",
+    "generation": 6,
+    "commune": "Cuillé",
+    "departement": 53,
+    "annee_naissance": null,
+    "lat": 47.9637,
+    "lon": -1.1114
+  },
+  {
+    "nom": "Yves Paul",
+    "generation": 6,
+    "commune": null,
+    "departement": null,
+    "annee_naissance": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "nom": "Yves Pochat",
+    "generation": 6,
+    "commune": "Plomelin",
+    "departement": 29,
+    "annee_naissance": 1798,
+    "lat": 47.9313,
+    "lon": -4.1499
+  },
+  {
+    "nom": "Yves Struillou",
+    "generation": 6,
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1817,
+    "lat": 47.8246,
+    "lon": -4.1852
+  }
+]

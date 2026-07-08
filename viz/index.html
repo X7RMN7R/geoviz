@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GeoViz — Arbre généalogique</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f5f0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      padding: 12px 20px;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+      white-space: nowrap;
+    }
+
+    #slider-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #slider-label {
+      font-size: 0.85rem;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    #gen-slider {
+      width: 180px;
+      cursor: pointer;
+      accent-color: #3498db;
+    }
+
+    #btn-play {
+      background: #3498db;
+      border: none;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: background 0.2s;
+    }
+    #btn-play:hover { background: #217dbb; }
+    #btn-play svg { display: block; }
+
+    #gen-value {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #3498db;
+      min-width: 80px;
+    }
+
+    #legend {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-left: auto;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.78rem;
+      color: #777;
+      transition: opacity 0.3s;
+    }
+
+    .legend-item.inactive {
+      opacity: 0.25;
+    }
+
+    .legend-dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      border: 2px solid rgba(0,0,0,0.15);
+      flex-shrink: 0;
+    }
+
+    #map {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Arbre généalogique</h1>
+
+  <div id="slider-container">
+    <span id="slider-label">Générations affichées :</span>
+    <button id="btn-play" title="Lecture automatique">
+      <!-- icône play -->
+      <svg id="icon-play" width="12" height="14" viewBox="0 0 12 14" fill="white"><polygon points="0,0 12,7 0,14"/></svg>
+      <!-- icône pause -->
+      <svg id="icon-pause" width="12" height="14" viewBox="0 0 12 14" fill="white" style="display:none"><rect x="0" y="0" width="4" height="14"/><rect x="8" y="0" width="4" height="14"/></svg>
+    </button>
+    <input type="range" id="gen-slider" min="0" max="0" value="0" step="1" />
+    <span id="gen-value"></span>
+  </div>
+
+  <div id="legend"></div>
+</header>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  const COULEURS = [
+    "#e74c3c",
+    "#3498db",
+    "#2ecc71",
+    "#f39c12",
+    "#9b59b6",
+    "#1abc9c",
+    "#e67e22",
+    "#34495e",
+  ];
+
+  function couleurGeneration(gen) {
+    return COULEURS[gen % COULEURS.length];
+  }
+
+  const map = L.map("map").setView([46.8, 2.3], 6);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '© <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+    maxZoom: 18,
+  }).addTo(map);
+
+  fetch("../data/arbre_geocoded.json")
+    .then(r => r.json())
+    .then(personnes => {
+      const generations = [...new Set(personnes.map(p => p.generation))].sort((a, b) => a - b);
+      const maxGen = generations[generations.length - 1];
+
+      const BASE_RADIUS = 8; // rayon pour 1 personne (px)
+
+      // Couche unique reconstruite à chaque changement de slider
+      const coucheMarqueurs = L.layerGroup().addTo(map);
+
+      function construireMarqueurs(genMax) {
+        coucheMarqueurs.clearLayers();
+
+        const visibles = personnes.filter(p => p.generation <= genMax && p.lat != null);
+
+        // Regrouper par coordonnées (clé "lat,lon")
+        const groupes = {};
+        visibles.forEach(p => {
+          const cle = `${p.lat},${p.lon}`;
+          if (!groupes[cle]) groupes[cle] = { lat: p.lat, lon: p.lon, membres: [] };
+          groupes[cle].membres.push(p);
+        });
+
+        Object.values(groupes).forEach(({ lat, lon, membres }) => {
+          const n = membres.length;
+          // Rayon proportionnel à √n (surface ∝ n)
+          const rayon = BASE_RADIUS * Math.sqrt(n);
+          // Couleur de la génération la plus récente du groupe
+          const genMin = Math.min(...membres.map(m => m.generation));
+          const couleur = couleurGeneration(genMin);
+
+          // Popup : liste tous les individus du groupe
+          const lignes = membres
+            .sort((a, b) => a.generation - b.generation)
+            .map(m => {
+              const annee = m.annee_naissance ? ` (${m.annee_naissance})` : "";
+              return `<li>${m.nom}${annee} — gén. ${m.generation}</li>`;
+            })
+            .join("");
+          const titre = membres[0].commune ?? "?";
+          const dept = membres[0].departement ? ` (${membres[0].departement})` : "";
+          const popup = `<strong>${titre}${dept}</strong><br><ul style="margin:6px 0 0 16px;padding:0">${lignes}</ul>`;
+
+          const taille = rayon * 2;
+          const icone = L.divIcon({
+            className: "",
+            html: `<div style="
+              width:${taille}px;
+              height:${taille}px;
+              border-radius:50%;
+              background:${couleur};
+              border:2px solid #fff;
+              box-shadow:0 1px 4px rgba(0,0,0,0.3);
+              display:flex;
+              align-items:center;
+              justify-content:center;
+              font-size:${Math.max(9, rayon * 0.8)}px;
+              font-weight:700;
+              color:#fff;
+              font-family:system-ui,sans-serif;
+            ">${n > 1 ? n : ""}</div>`,
+            iconSize: [taille, taille],
+            iconAnchor: [rayon, rayon],
+            popupAnchor: [0, -rayon],
+          });
+
+          L.marker([lat, lon], { icon: icone })
+            .bindTooltip(membres[0].commune ?? "?", { direction: "top", offset: [0, -rayon] })
+            .bindPopup(popup)
+            .addTo(coucheMarqueurs);
+        });
+
+        return visibles.length;
+      }
+
+      // Légende
+      const legendEl = document.getElementById("legend");
+      const legendItems = {};
+      generations.forEach(gen => {
+        const item = document.createElement("div");
+        item.className = "legend-item";
+        item.innerHTML = `
+          <div class="legend-dot" style="background:${couleurGeneration(gen)}"></div>
+          Gén. ${gen}
+        `;
+        legendEl.appendChild(item);
+        legendItems[gen] = item;
+      });
+
+      // Slider
+      const slider = document.getElementById("gen-slider");
+      const genValue = document.getElementById("gen-value");
+      slider.max = maxGen;
+      slider.value = maxGen;
+
+      function mettreAJour(genMax) {
+        const nb = construireMarqueurs(genMax);
+
+        generations.forEach(gen => {
+          legendItems[gen].classList.toggle("inactive", gen > genMax);
+        });
+
+        genValue.textContent = `0 à ${genMax} (${nb} ancêtre${nb > 1 ? "s" : ""})`;
+      }
+
+      slider.addEventListener("input", () => {
+        arreterLecture();
+        mettreAJour(parseInt(slider.value));
+      });
+
+      // Bouton play/pause
+      const btnPlay = document.getElementById("btn-play");
+      const iconPlay = document.getElementById("icon-play");
+      const iconPause = document.getElementById("icon-pause");
+      let intervalLecture = null;
+      const DELAI_MS = 1200; // durée par génération en ms
+
+      function arreterLecture() {
+        if (intervalLecture) {
+          clearInterval(intervalLecture);
+          intervalLecture = null;
+          iconPlay.style.display = "block";
+          iconPause.style.display = "none";
+        }
+      }
+
+      btnPlay.addEventListener("click", () => {
+        if (intervalLecture) {
+          arreterLecture();
+          return;
+        }
+
+        // Repartir de 0 si on est déjà à la fin
+        if (parseInt(slider.value) >= maxGen) {
+          slider.value = 0;
+          mettreAJour(0);
+        }
+
+        iconPlay.style.display = "none";
+        iconPause.style.display = "block";
+
+        intervalLecture = setInterval(() => {
+          const genActuelle = parseInt(slider.value);
+          if (genActuelle >= maxGen) {
+            arreterLecture();
+            return;
+          }
+          slider.value = genActuelle + 1;
+          mettreAJour(genActuelle + 1);
+        }, DELAI_MS);
+      });
+
+      // Affichage initial : toutes les générations
+      mettreAJour(maxGen);
+
+      // Zoom sur tous les points valides
+      const valides = personnes.filter(p => p.lat != null);
+      if (valides.length > 0) {
+        map.fitBounds(L.latLngBounds(valides.map(p => [p.lat, p.lon])), { padding: [40, 40] });
+      }
+    })
+    .catch(err => console.error("Erreur chargement données :", err));
+</script>
+
+</body>
+</html>
