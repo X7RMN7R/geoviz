@@ -169,12 +169,22 @@
 
         const visibles = personnes.filter(p => p.generation <= genMax && p.lat != null);
 
-        // Regrouper par coordonnées (clé "lat,lon")
+        // Regrouper par lat/lon arrondi à 3 décimales (~100m)
+        // Robuste même si departement est null pour certaines entrées
+        const arrondi = v => Math.round(v * 1000) / 1000;
         const groupes = {};
         visibles.forEach(p => {
-          const cle = `${p.lat},${p.lon}`;
-          if (!groupes[cle]) groupes[cle] = { lat: p.lat, lon: p.lon, membres: [] };
+          const cle = `${arrondi(p.lat)}|${arrondi(p.lon)}`;
+          if (!groupes[cle]) groupes[cle] = { lats: [], lons: [], membres: [] };
+          groupes[cle].lats.push(p.lat);
+          groupes[cle].lons.push(p.lon);
           groupes[cle].membres.push(p);
+        });
+
+        // Centroïde de chaque groupe
+        Object.values(groupes).forEach(g => {
+          g.lat = g.lats.reduce((a, b) => a + b, 0) / g.lats.length;
+          g.lon = g.lons.reduce((a, b) => a + b, 0) / g.lons.length;
         });
 
         Object.values(groupes).forEach(({ lat, lon, membres }) => {

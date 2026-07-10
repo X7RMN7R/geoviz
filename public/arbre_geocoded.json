@@ -561,19 +561,19 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Treffiagat",
+    "departement": 29,
+    "annee_naissance": 1783,
+    "lat": 47.8068,
+    "lon": -4.2562
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1799,
+    "lat": 47.8246,
+    "lon": -4.1852
   },
   {
     "generation": 6,
@@ -593,11 +593,11 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
+    "commune": "Plomeur",
+    "departement": 29,
     "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "lat": 47.8377,
+    "lon": -4.3007
   },
   {
     "generation": 6,
@@ -657,11 +657,11 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1795,
+    "lat": 47.8246,
+    "lon": -4.1852
   },
   {
     "generation": 6,
@@ -905,11 +905,11 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Loctudy",
+    "departement": 29,
+    "annee_naissance": 1794,
+    "lat": 47.8246,
+    "lon": -4.1852
   },
   {
     "generation": 6,
@@ -993,11 +993,11 @@
   },
   {
     "generation": 6,
-    "commune": null,
-    "departement": null,
-    "annee_naissance": null,
-    "lat": null,
-    "lon": null
+    "commune": "Plobannalec",
+    "departement": 29,
+    "annee_naissance": 1788,
+    "lat": 47.8209,
+    "lon": -4.2282
   },
   {
     "generation": 6,
